@@ -1,0 +1,6 @@
+table{
+    border: 0.1rem solid #7896f0;
+}
+.table td,.table th{
+    border-top: 1px solid #ffff;
+}
