@@ -7,7 +7,7 @@ import NavItem from './NavItem'
 export default class Sidebar extends Component{
     render(){
         return(
-            <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <ul className="navbar-nav bg-dark sidebar sidebar-dark accordion" id="accordionSidebar">
                 
                 <SidebarBrand/>
 
@@ -30,8 +30,8 @@ export default class Sidebar extends Component{
 
                 {/* Heading */}
                 <div className="sidebar-heading">Menu</div>
-                    <NavItem title="Productos" link='products'/>
-                    <NavItem title="Usuarios" link='users'/>    
+                    <NavItem title="Productos" link='products' icon="fas fa-shopping-basket"/>
+                    <NavItem title="Usuarios" link='users' icon="fas fa-users"/>    
 
                 {/* Divider */}
                 <hr className="sidebar-divider d-none d-md-block" />

@@ -6,7 +6,7 @@ export default class NavItem extends Component {
         return (
             <li className="nav-item">
                 <Link to={'/'+this.props.link} className="nav-link collapsed">
-                <i className="fas fa-fw fa-folder" />
+                <i className={this.props.icon} />
                 <span>{this.props.title}</span>
                 </Link>
             </li>

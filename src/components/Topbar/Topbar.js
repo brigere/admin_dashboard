@@ -16,7 +16,7 @@ export default class Topbar extends Component {
                 <a className="nav-link dropdown-toggle" href="/" id="alertsDropdown">
                   <i className="fas fa-bell fa-fw" />
                   {/* Counter - Alerts */}
-                 <span className="badge badge-danger badge-counter">1+</span>
+                 {/* <span className="badge badge-danger badge-counter">1+</span> */}
                 </a>
                </li>
 
@@ -25,7 +25,7 @@ export default class Topbar extends Component {
                 <a className="nav-link dropdown-toggle" href="/" id="messagesDropdown">
                   <i className="fas fa-envelope fa-fw" />
                   {/* Counter - Messages */}
-                  <span className="badge badge-danger badge-counter">3</span>
+                  {/* <span className="badge badge-danger badge-counter">3</span> */}
                 </a>
               </li>
               
@@ -35,8 +35,8 @@ export default class Topbar extends Component {
               {/* Nav Item - User Information */}
               <li className="nav-item dropdown no-arrow">
                 <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                  <span className="mr-2 d-none d-lg-inline text-gray-600 small">Walter White</span>
-                  <img className="img-profile rounded-circle" src="assets/images/dummy-avatar.jpg" width={60} alt="profile avatar" />
+                  <span className="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                  <img className="img-profile rounded-circle" src="/assets/images/dummy-avatar.jpg" width={60} alt="profile avatar" />
                 </a>
               </li>
             </ul>
